@@ -1,0 +1,80 @@
+# AssureShop
+# AssureShop
+## PostgreSQL Setup
+
+1.  **Copy SQL Schema:**
+    ```bash
+    cp ecommerce_schema.sql /tmp/
+    ```
+    This command copies your PostgreSQL schema file to a temporary location.
+
+2.  **Apply SQL Schema to PostgreSQL:**
+    ```bash
+    sudo -u postgres psql -f /tmp/ecommerce_schema.sql
+    ```
+    This command uses the `psql` utility (as the `postgres` user) to execute the SQL commands in your schema file, creating the necessary tables and structure in your PostgreSQL database.
+
+3.  **Remove Temporary Schema File:**
+    ```bash
+    rm /tmp/ecommerce_schema.sql
+    ```
+    This command cleans up by deleting the temporary copy of the SQL schema file.
+
+4.  **DBeaver Connection Configuration:**
+    To connect to your PostgreSQL database using DBeaver, use the following connection details:
+    * **Host:** `localhost`
+    * **Port:** `5432` (default PostgreSQL port)
+    * **Database:** `ecommerce` (as defined in your `ecommerce_schema.sql`)
+    * **User:** `[your_username]` (your PostgreSQL username)
+    * **Password:** `[your_password]` (your PostgreSQL password)
+
+## Backend Setup and Execution
+
+1.  **Navigate to Backend Directory:**
+    ```bash
+    cd backend
+    ```
+
+2.  **Install Dependencies:**
+    ```bash
+    npm install
+    ```
+    This command installs all the necessary packages listed in your `package.json` file, including Prisma, Express, and other dependencies. You do not need `npm init` as the `package.json` is already present.
+
+3.  **Initialize Prisma with Existing Database:**
+    ```bash
+    npx prisma init
+    ```
+    This command initializes Prisma in your project. It will analyze your database schema and create a `schema.prisma` file. You might need to adjust the `datasource` block in `schema.prisma` to correctly point to your PostgreSQL database if it's not automatically configured correctly. Ensure the connection URL in `schema.prisma` reflects your PostgreSQL setup (host, port, user, password, database).
+
+4.  **Generate Prisma Client Types:**
+    ```bash
+    npx prisma generate
+    ```
+    This command uses the `schema.prisma` file to generate the TypeScript types for the Prisma Client. These types provide type safety for your database interactions.
+
+5.  **Build the Server (if necessary):**
+    ```bash
+    npm run build
+    ```
+    If your project uses TypeScript and requires a build step to transpile to JavaScript, run this command. If you are directly running JavaScript, you might skip this. Based on your `package.json`, it seems you are using TypeScript, so this step is likely needed.
+
+6.  **Run the Development Server:**
+    ```bash
+    npm run dev
+    ```
+    This command starts your backend server in development mode, likely with features like hot-reloading (depending on your `nodemon` configuration).
+
+## Advanced Testing - Adding a Product via POST Request (Postman)
+
+You can test the product creation endpoint using a tool like Postman:
+
+1.  **Change HTTP Method to POST:** In Postman, select `POST` as the request method.
+
+2.  **Maintain the URL:** Use the endpoint `http://localhost:3000/api/products`. Ensure this route is defined in your backend application.
+
+3.  **Go to "Body" Tab, Select "raw" and "JSON":** Configure the request body to send data in JSON format.
+
+4.  **Enter Test Product Data:** Paste the following JSON payload into the "raw" body:
+
+

@@ -1,0 +1,220 @@
+{
+    "info": {
+      "name": "Electronics Store API",
+      "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+      "description": "API for managing electronics store products"
+    },
+    "item": [
+      {
+        "name": "v1 Products",
+        "description": "Endpoints for electronics products management",
+        "item": [
+          {
+            "name": "List All Products",
+            "request": {
+              "method": "GET",
+              "header": [],
+              "url": "http://localhost:3000/api/v1/products",
+              "description": "Retrieve all products with filtering options"
+            }
+          },
+          {
+            "name": "Get Product by ID",
+            "request": {
+              "method": "GET",
+              "header": [],
+              "url": "http://localhost:3000/api/v1/products/:id",
+              "description": "Get specific product by ID"
+            }
+          },
+          {
+            "name": "Create New Product",
+            "request": {
+              "method": "POST",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": {
+                "mode": "raw",
+                "raw": "{\n  \"name\": \"MacBook Pro M2\",\n  \"price\": 1999,\n  \"description\": \"14-inch laptop with M2 chip\",\n  \"category\": \"laptops\",\n  \"stock\": 15,\n  \"brand\": \"Apple\",\n  \"features\": [\"16GB RAM\", \"512GB SSD\"],\n  \"imageUrl\": \"https://example.com/macbook.jpg\"\n}"
+              },
+              "url": "http://localhost:3000/api/v1/products",
+              "description": "Add new electronic product to catalog"
+            }
+          },
+          {
+            "name": "Update Product",
+            "request": {
+              "method": "PUT",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": {
+                "mode": "raw",
+                "raw": "{\n  \"price\": 1899,\n  \"stock\": 20,\n  \"features\": [\"16GB RAM\", \"512GB SSD\", \"Touch Bar\"]\n}"
+              },
+              "url": "http://localhost:3000/api/v1/products/:id",
+              "description": "Update existing product details"
+            }
+          },
+          {
+            "name": "Delete Product",
+            "request": {
+              "method": "DELETE",
+              "header": [],
+              "url": "http://localhost:3000/api/v1/products/:id",
+              "description": "Remove product from catalog"
+            }
+          },
+          {
+            "name": "Search Products",
+            "request": {
+              "method": "GET",
+              "header": [],
+              "url": "http://localhost:3000/api/v1/products/search?q=macbook",
+              "description": "Search products by keyword"
+            }
+          },
+          {
+            "name": "Get Products by Category",
+            "request": {
+              "method": "GET",
+              "header": [],
+              "url": "http://localhost:3000/api/v1/products/category/laptops",
+              "description": "Filter products by category"
+            }
+          }
+        ]
+      },
+      {
+        "name": "v1 Categories",
+        "description": "Product categories management",
+        "item": [
+          {
+            "name": "List All Categories",
+            "request": {
+              "method": "GET",
+              "header": [],
+              "url": "http://localhost:3000/api/v1/categories"
+            }
+          },
+          {
+            "name": "Create Category",
+            "request": {
+              "method": "POST",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": {
+                "mode": "raw",
+                "raw": "{\n  \"name\": \"smartwatches\",\n  \"description\": \"Smart watches category\"\n}"
+              },
+              "url": "http://localhost:3000/api/v1/categories"
+            }
+          }
+        ]
+      },
+      {
+        "name": "v1 Inventory",
+        "description": "Inventory management",
+        "item": [
+          {
+            "name": "Check Product Stock",
+            "request": {
+              "method": "GET",
+              "header": [],
+              "url": "http://localhost:3000/api/v1/inventory/:productId"
+            }
+          },
+          {
+            "name": "Update Stock Level",
+            "request": {
+              "method": "PATCH",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": {
+                "mode": "raw",
+                "raw": "{\n  \"operation\": \"increment\",\n  \"quantity\": 5\n}"
+              },
+              "url": "http://localhost:3000/api/v1/inventory/:productId"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Authentication",
+        "description": "User authentication endpoints",
+        "item": [
+          {
+            "name": "Admin Login",
+            "request": {
+              "method": "POST",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": {
+                "mode": "raw",
+                "raw": "{\n  \"email\": \"admin@store.com\",\n  \"password\": \"admin123\"\n}"
+              },
+              "url": "http://localhost:3000/api/v1/auth/login"
+            }
+          }
+        ]
+      }
+    ],
+    "variable": [
+      {
+        "key": "baseUrl",
+        "value": "http://localhost:3000/api/v1",
+        "type": "string"
+      },
+      {
+        "key": "authToken",
+        "value": "",
+        "type": "string"
+      }
+    ],
+    "event": [
+      {
+        "listen": "test",
+        "script": {
+          "type": "text/javascript",
+          "exec": [
+            "pm.test(\"Status code is 200\", function () {",
+            "    pm.response.to.have.status(200);",
+            "});",
+            "",
+            "pm.test(\"Response time is less than 500ms\", function () {",
+            "    pm.expect(pm.response.responseTime).to.be.below(500);",
+            "});"
+          ]
+        }
+      }
+    ],
+    "auth": {
+      "type": "bearer",
+      "bearer": [
+        {
+          "key": "token",
+          "value": "{{authToken}}",
+          "type": "string"
+        }
+      ]
+    }
+  }

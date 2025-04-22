@@ -1,0 +1,30 @@
+// prisma/schema.prisma
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Product {
+  id          Int      @id @default(autoincrement())
+  name        String
+  price       Float
+  description String
+  category    String
+  stock       Int
+  brand       String
+  imageUrl    String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  features    Feature[]
+}
+
+model Feature {
+  id        Int     @id @default(autoincrement())
+  name      String
+  product   Product @relation(fields: [productId], references: [id])
+  productId Int
+}

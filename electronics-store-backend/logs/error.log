@@ -1,0 +1,343 @@
+2025-04-22 15:15:50 error: MongooseError: Operation `products.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/enrique.gamboa/BACKEND_PROJECT/electronics-store-backend/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:187:23)
+    at listOnTimeout (node:internal/timers:608:17)
+    at process.processTimers (node:internal/timers:543:7)
+2025-04-22 15:15:58 error: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-04-22 15:20:48 error: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-04-22 15:22:32 error: ❌ MongoDB Connection Error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-04-22 15:22:50 error: ❌ MongoDB Connection Error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-04-22 15:24:49 error: ❌ MongoDB Connection Error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-04-22 15:27:34 error: ❌ MongoDB Connection Error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-04-22 15:29:48 error: ❌ MongoDB Connection Error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-04-22 15:31:25 error: 🔴 MongoDB Connection Error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-04-22 15:31:25 error: 🔍 Verifica lo siguiente:
+2025-04-22 15:31:25 error: 1. Whitelist IP en Atlas (debe incluir 0.0.0.0/0)
+2025-04-22 15:31:25 error: 2. Usuario/contraseña correctos
+2025-04-22 15:31:25 error: 3. Nombre de la base de datos existe
+2025-04-22 15:31:25 error: 4. No hay caracteres especiales en la contraseña
+2025-04-22 15:31:40 error: 🔴 MongoDB Connection Error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-04-22 15:31:40 error: 🔍 Verifica lo siguiente:
+2025-04-22 15:31:40 error: 1. Whitelist IP en Atlas (debe incluir 0.0.0.0/0)
+2025-04-22 15:31:40 error: 2. Usuario/contraseña correctos
+2025-04-22 15:31:40 error: 3. Nombre de la base de datos existe
+2025-04-22 15:31:40 error: 4. No hay caracteres especiales en la contraseña
+2025-04-22 15:31:55 error: 🔴 MongoDB Connection Error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-04-22 15:31:55 error: 🔍 Verifica lo siguiente:
+2025-04-22 15:31:55 error: 1. Whitelist IP en Atlas (debe incluir 0.0.0.0/0)
+2025-04-22 15:31:55 error: 2. Usuario/contraseña correctos
+2025-04-22 15:31:55 error: 3. Nombre de la base de datos existe
+2025-04-22 15:31:55 error: 4. No hay caracteres especiales en la contraseña
+2025-04-22 15:32:10 error: 🔴 MongoDB Connection Error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-04-22 15:32:10 error: 🔍 Verifica lo siguiente:
+2025-04-22 15:32:10 error: 1. Whitelist IP en Atlas (debe incluir 0.0.0.0/0)
+2025-04-22 15:32:10 error: 2. Usuario/contraseña correctos
+2025-04-22 15:32:10 error: 3. Nombre de la base de datos existe
+2025-04-22 15:32:10 error: 4. No hay caracteres especiales en la contraseña
+2025-04-22 15:32:48 error: ❌ Connection Error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-04-22 15:32:48 error: 🔍 Solución:
+2025-04-22 15:32:48 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:32:48 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:32:48 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:32:48 error: 🔴 Mongoose connection error: MongoServerSelectionError: Server selection timed out after 30000 ms
+2025-04-22 15:33:23 error: ❌ Connection Error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-04-22 15:33:23 error: 🔍 Solución:
+2025-04-22 15:33:23 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:33:23 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:33:23 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:33:23 error: 🔴 Mongoose connection error: MongoServerSelectionError: Server selection timed out after 30000 ms
+2025-04-22 15:33:59 error: ❌ Connection Error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-04-22 15:34:23 error: ❌ Connection Error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-04-22 15:34:23 error: 🔍 Solución:
+2025-04-22 15:34:23 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:34:23 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:34:23 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:34:23 error: 🔴 Mongoose connection error: MongoServerSelectionError: Server selection timed out after 30000 ms
+2025-04-22 15:34:58 error: ❌ Connection Error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-04-22 15:34:58 error: 🔍 Solución:
+2025-04-22 15:34:58 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:34:58 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:34:58 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:34:58 error: 🔴 Mongoose connection error: MongoServerSelectionError: Server selection timed out after 30000 ms
+2025-04-22 15:35:34 error: ❌ Connection Error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-04-22 15:35:34 error: 🔍 Solución:
+2025-04-22 15:35:34 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:35:34 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:35:34 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:35:34 error: 🔴 Mongoose connection error: MongoServerSelectionError: Server selection timed out after 30000 ms
+2025-04-22 15:36:09 error: ❌ Connection Error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-04-22 15:36:35 error: ❌ Connection Error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-04-22 15:36:35 error: 🔍 Solución:
+2025-04-22 15:36:35 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:36:35 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:36:35 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:36:35 error: 🔴 Mongoose connection error: MongoServerSelectionError: Server selection timed out after 30000 ms
+2025-04-22 15:37:10 error: ❌ Connection Error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-04-22 15:37:10 error: 🔍 Solución:
+2025-04-22 15:37:10 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:37:10 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:37:10 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:37:10 error: 🔴 Mongoose connection error: MongoServerSelectionError: Server selection timed out after 30000 ms
+2025-04-22 15:37:45 error: ❌ Connection Error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-04-22 15:37:45 error: 🔍 Solución:
+2025-04-22 15:37:45 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:37:45 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:37:45 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:37:45 error: 🔴 Mongoose connection error: MongoServerSelectionError: Server selection timed out after 30000 ms
+2025-04-22 15:38:20 error: ❌ Connection Error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-04-22 15:38:20 error: 🔍 Solución:
+2025-04-22 15:38:20 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:38:20 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:38:20 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:38:20 error: 🔴 Mongoose connection error: MongoServerSelectionError: Server selection timed out after 30000 ms
+2025-04-22 15:38:26 error: ❌ Connection Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:38:26 error: 🔍 Solución:
+2025-04-22 15:38:26 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:38:26 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:38:26 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:38:26 error: 🔴 Mongoose connection error: Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:38:31 error: ❌ Connection Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:38:31 error: 🔍 Solución:
+2025-04-22 15:38:31 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:38:31 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:38:31 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:38:31 error: 🔴 Mongoose connection error: Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:38:36 error: ❌ Connection Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:38:36 error: 🔍 Solución:
+2025-04-22 15:38:36 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:38:36 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:38:36 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:38:36 error: 🔴 Mongoose connection error: Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:38:41 error: ❌ Connection Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:38:41 error: 🔍 Solución:
+2025-04-22 15:38:41 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:38:41 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:38:41 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:38:41 error: 🔴 Mongoose connection error: Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:38:46 error: ❌ Connection Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:38:46 error: 🔍 Solución:
+2025-04-22 15:38:46 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:38:46 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:38:46 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:38:46 error: 🔴 Mongoose connection error: Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:38:51 error: ❌ Connection Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:38:51 error: 🔍 Solución:
+2025-04-22 15:38:51 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:38:51 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:38:51 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:38:51 error: 🔴 Mongoose connection error: Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:38:56 error: ❌ Connection Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:38:56 error: 🔍 Solución:
+2025-04-22 15:38:56 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:38:56 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:38:56 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:38:56 error: 🔴 Mongoose connection error: Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:39:01 error: ❌ Connection Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:39:01 error: 🔍 Solución:
+2025-04-22 15:39:01 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:39:01 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:39:01 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:39:01 error: 🔴 Mongoose connection error: Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:39:06 error: ❌ Connection Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:39:06 error: 🔍 Solución:
+2025-04-22 15:39:06 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:39:06 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:39:06 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:39:06 error: 🔴 Mongoose connection error: Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:39:11 error: ❌ Connection Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:39:11 error: 🔍 Solución:
+2025-04-22 15:39:11 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:39:11 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:39:11 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:39:11 error: 🔴 Mongoose connection error: Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:39:16 error: ❌ Connection Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:39:16 error: 🔍 Solución:
+2025-04-22 15:39:16 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:39:16 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:39:16 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:39:16 error: 🔴 Mongoose connection error: Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:39:21 error: ❌ Connection Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:39:21 error: 🔍 Solución:
+2025-04-22 15:39:21 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:39:21 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:39:21 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:39:21 error: 🔴 Mongoose connection error: Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:39:26 error: ❌ Connection Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:39:26 error: 🔍 Solución:
+2025-04-22 15:39:26 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:39:26 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:39:26 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:39:26 error: 🔴 Mongoose connection error: Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:39:31 error: ❌ Connection Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:39:31 error: 🔍 Solución:
+2025-04-22 15:39:31 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:39:31 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:39:31 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:39:31 error: 🔴 Mongoose connection error: Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:39:36 error: ❌ Connection Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:39:36 error: 🔍 Solución:
+2025-04-22 15:39:36 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:39:36 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:39:36 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:39:36 error: 🔴 Mongoose connection error: Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:39:41 error: ❌ Connection Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:39:41 error: 🔍 Solución:
+2025-04-22 15:39:41 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:39:41 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:39:41 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:39:41 error: 🔴 Mongoose connection error: Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:39:46 error: ❌ Connection Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:39:46 error: 🔍 Solución:
+2025-04-22 15:39:46 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:39:46 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:39:46 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:39:46 error: 🔴 Mongoose connection error: Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:39:51 error: ❌ Connection Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:39:51 error: 🔍 Solución:
+2025-04-22 15:39:51 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:39:51 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:39:51 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:39:51 error: 🔴 Mongoose connection error: Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:39:56 error: ❌ Connection Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:39:56 error: 🔍 Solución:
+2025-04-22 15:39:56 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:39:56 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:39:56 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:39:56 error: 🔴 Mongoose connection error: Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:40:01 error: ❌ Connection Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:40:01 error: 🔍 Solución:
+2025-04-22 15:40:01 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:40:01 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:40:01 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:40:01 error: 🔴 Mongoose connection error: Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:40:06 error: ❌ Connection Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:40:06 error: 🔍 Solución:
+2025-04-22 15:40:06 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:40:06 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:40:06 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:40:06 error: 🔴 Mongoose connection error: Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:40:11 error: ❌ Connection Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:40:11 error: 🔍 Solución:
+2025-04-22 15:40:11 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:40:11 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:40:11 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:40:11 error: 🔴 Mongoose connection error: Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:40:16 error: ❌ Connection Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:40:16 error: 🔍 Solución:
+2025-04-22 15:40:16 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:40:16 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:40:16 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:40:16 error: 🔴 Mongoose connection error: Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:40:21 error: ❌ Connection Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:40:21 error: 🔍 Solución:
+2025-04-22 15:40:21 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:40:21 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:40:21 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:40:21 error: 🔴 Mongoose connection error: Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:40:26 error: ❌ Connection Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:40:26 error: 🔍 Solución:
+2025-04-22 15:40:26 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:40:26 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:40:26 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:40:26 error: 🔴 Mongoose connection error: Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:40:31 error: ❌ Connection Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:40:31 error: 🔍 Solución:
+2025-04-22 15:40:31 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:40:31 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:40:31 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:40:31 error: 🔴 Mongoose connection error: Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:40:36 error: ❌ Connection Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:40:36 error: 🔍 Solución:
+2025-04-22 15:40:36 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:40:36 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:40:36 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:40:36 error: 🔴 Mongoose connection error: Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:40:41 error: ❌ Connection Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:40:41 error: 🔍 Solución:
+2025-04-22 15:40:41 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:40:41 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:40:41 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:40:41 error: 🔴 Mongoose connection error: Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:40:46 error: ❌ Connection Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:40:46 error: 🔍 Solución:
+2025-04-22 15:40:46 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:40:46 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:40:46 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:40:46 error: 🔴 Mongoose connection error: Error: querySrv ENOTFOUND _mongodb._tcp.cluster10.fb3fmsk.mongodb.net
+2025-04-22 15:42:39 error: ❌ Connection Error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-04-22 15:42:39 error: 🔍 Solución:
+2025-04-22 15:42:39 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:42:39 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:42:39 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:42:39 error: 🔴 Mongoose connection error: MongoServerSelectionError: Server selection timed out after 30000 ms
+2025-04-22 15:43:14 error: ❌ Connection Error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-04-22 15:43:14 error: 🔍 Solución:
+2025-04-22 15:43:14 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:43:14 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:43:14 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:43:14 error: 🔴 Mongoose connection error: MongoServerSelectionError: Server selection timed out after 30000 ms
+2025-04-22 15:43:50 error: ❌ Connection Error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-04-22 15:43:50 error: 🔍 Solución:
+2025-04-22 15:43:50 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:43:50 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:43:50 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:43:50 error: 🔴 Mongoose connection error: MongoServerSelectionError: Server selection timed out after 30000 ms
+2025-04-22 15:44:25 error: ❌ Connection Error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-04-22 15:44:25 error: 🔍 Solución:
+2025-04-22 15:44:25 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:44:25 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:44:25 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:44:25 error: 🔴 Mongoose connection error: MongoServerSelectionError: Server selection timed out after 30000 ms
+2025-04-22 15:45:01 error: ❌ Connection Error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-04-22 15:45:23 error: ❌ Connection Error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-04-22 15:45:23 error: 🔍 Solución:
+2025-04-22 15:45:23 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:45:23 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:45:23 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:45:23 error: 🔴 Mongoose connection error: MongoServerSelectionError: Server selection timed out after 30000 ms
+2025-04-22 15:45:58 error: ❌ Connection Error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-04-22 15:45:58 error: 🔍 Solución:
+2025-04-22 15:45:58 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:45:58 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:45:58 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:45:58 error: 🔴 Mongoose connection error: MongoServerSelectionError: Server selection timed out after 30000 ms
+2025-04-22 15:46:34 error: ❌ Connection Error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-04-22 15:47:54 error: ❌ Connection Error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-04-22 15:47:54 error: 🔍 Solución:
+2025-04-22 15:47:54 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:47:54 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:47:54 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:47:55 error: 🔴 Mongoose connection error: MongoServerSelectionError: Server selection timed out after 30000 ms
+2025-04-22 15:48:30 error: ❌ Connection Error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-04-22 15:48:30 error: 🔍 Solución:
+2025-04-22 15:48:30 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:48:30 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:48:30 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:48:30 error: 🔴 Mongoose connection error: MongoServerSelectionError: Server selection timed out after 30000 ms
+2025-04-22 15:49:05 error: ❌ Connection Error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-04-22 15:49:30 error: ❌ Connection Error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-04-22 15:49:30 error: 🔍 Solución:
+2025-04-22 15:49:30 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:49:30 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:49:30 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:49:30 error: 🔴 Mongoose connection error: MongoServerSelectionError: Server selection timed out after 30000 ms
+2025-04-22 15:50:05 error: ❌ Connection Error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-04-22 15:50:16 error: ❌ Connection Error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-04-22 15:50:16 error: 🔍 Solución:
+2025-04-22 15:50:16 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:50:16 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:50:16 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:50:16 error: 🔴 Mongoose connection error: MongoServerSelectionError: Server selection timed out after 30000 ms
+2025-04-22 15:50:51 error: ❌ Connection Error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-04-22 15:50:51 error: 🔍 Solución:
+2025-04-22 15:50:51 error: 1. Verifica IP whitelist en MongoDB Atlas
+2025-04-22 15:50:51 error: 2. Revisa usuario/contraseña en .env
+2025-04-22 15:50:51 error: 3. Prueba conectar manualmente con mongosh
+2025-04-22 15:50:51 error: 🔴 Mongoose connection error: MongoServerSelectionError: Server selection timed out after 30000 ms
+2025-04-22 17:28:35 error: ❌ Shutdown error: server is not defined
+2025-04-22 17:31:15 error: Error: Invalid category
+    at validateProduct (/Users/enrique.gamboa/BACKEND_PROJECT/electronics-store-backend/src/middlewares/validationMiddleware.js:22:19)
+    at Layer.handleRequest (/Users/enrique.gamboa/BACKEND_PROJECT/electronics-store-backend/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/enrique.gamboa/BACKEND_PROJECT/electronics-store-backend/node_modules/router/lib/route.js:157:13)
+    at middleware (/Users/enrique.gamboa/BACKEND_PROJECT/electronics-store-backend/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-04-22 17:32:18 error: ❌ Shutdown error: server is not defined
